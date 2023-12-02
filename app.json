@@ -3,6 +3,7 @@
     "name": "educationApp",
     "slug": "educationApp",
     "version": "1.0.0",
+    "scheme": "codebox",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -26,6 +27,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c30615ba-f0f9-4707-b237-78bae1877b19"
+      }
     }
   }
 }
