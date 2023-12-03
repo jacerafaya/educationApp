@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Login from './App/Pages/Login';
 import { ClerkProvider, SignedIn, SignedOut } from "@clerk/clerk-expo";
+import Home from './App/Pages/Home';
 
 export default function App() {
   return (
@@ -9,7 +10,7 @@ export default function App() {
       <View style={styles.container}>
 
         <SignedIn>
-          <Text>You are Signed in</Text>
+          <Home></Home>
         </SignedIn>
         <SignedOut>
           <Login />
